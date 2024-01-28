@@ -12,26 +12,42 @@
       border-radius: "5px";
       background-color: #FEE0C0;
     }
-   /*body{
-        background-color: #B2A4FF;
-    }*/
-    
-ul.no-bullets {
+    ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+li a:hover{
+  background-color: lightgreen;
 }
     </style>
+
 <body id="#top">
     <header style="border: solid 1px; border-radius: 6px; background: skyblue;">
-        <h1 style="text-align: center; color: #F49D1A;">SMCC Website</h1>
+        <h1 style="text-align: center;">SMCC Website</h1>
         <nav>
-            <ul class="no-bullets" >
-                <li style="border: solid 0.5px; border-radius: 10px; text-align: center;font-weight: bold; "><a href="index.html">Home</a></li>
-                <li style="border: solid 0.5px; border-radius: 10px; text-align: center;font-weight: bold;"><a href="#about">About SMCC</a></li>
-                <li style="border: solid 1px; border-radius: 10px; text-align: center;font-weight: bold;;"><a href="#courses">Courses Offered</a></li>
-                <li style="border: solid 1px; border-radius: 10px; text-align: center;font-weight: bold;"><a href="#services">Services</a></li>
-                <li style="border: solid 1px; border-radius: 10px; text-align: center;font-weight: bold;"><a href="#contact">Contacts</a></li>
+            <ul style="list-style-type: none;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About SMCC</a></li>
+                <li><a href="#courses">Courses Offered</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -183,27 +199,57 @@ ul.no-bullets {
             <section>
                 <h2 style="text-align: center;">Services in SMCC</h2><br>
         
-                <table style="width: 100%;">
+                <table style="width: 100%; text-align: center;">
                     <tr>
                         <th>Student's Services
                         </th>
                         <th>Online Services</th>
                     </tr>
                     <tr>
-                        <td>Admission and Scholarshio Services</td>
+                        <td>Admission and Scholarship Services</td>
                         <td>Online Enrollment
+                            <figure><img src="" alt="">
+                                <figcaption></figcaption>
+                            </img></figure>
                         </td>
                     </tr>
                     <tr> <td>Auxilliary services</td>
-                    <td>Student's Portal</td>
+                    <td>Student's Portal
+                        <figure>
+                            <img src="images/Screenshot (4).png" alt="" height="300px">
+                                <figcaption>Sample Pic of the Announcement in SMCC Portal</figcaption>
+                            </img>
+                        </figure>
+                    </td>
                     </tr>
+
+                    <tr>
+                    <td>Health Services</td>
+                    <td>Official Facebook Page</td>
+                </tr>
+                <tr>
+                    <td>Guidance Services</td>
+                    <td>Youtube Channel
+                        <figure>
+                            <img src="images/Screenshot (8).png" alt="" height="300px">
+                                <figcaption>The Official Youtube Channel of SMCC</figcaption>
+                            </img>
+                        </figure>
+                    </td>
+                </tr>
                 </table>
 
             </section>
-        </article>
+        </article><br><br><br>
 
-        
-    </main>
+       <article style="border: solid 1px; background-color: aquamarine;">
+        <h2 style="text-align: center;">Contacts</h2>
+        <p>
+            Location:Atupan St. Brgy.4,Nasipit,Agusan del Norte Mindanao, Philippines 8602<br>Facebook:<a href="https://www.facebook.com/SMCCOfficial" target="_blank">SMCC Official Page</a><br>Email: <a href="mailto:admin@smccnasipit.edu.ph" target="_blank">admin@smccnasipit.edu.ph</a><br>Time:08:00am-5:00pm <br><br> For more Information, kindly click <a href="https://smccnasipit.edu.ph/">ME</a>
+        </p>
+  </article>
+</main>
+
     <footer></footer>
 </body>
 </html>
